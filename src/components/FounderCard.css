@@ -1,0 +1,56 @@
+.aFounder{
+    display: flex;
+}
+
+.aFounder img{
+  width: 186px;
+  height: 192px;
+  margin-right: 22px;
+}
+
+.f_info h3{
+  width: 275px;
+  height: 29px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.f_info h4{
+  width: 275px;
+  height: 22px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #666;
+}
+
+.f_info{
+    padding-left: 21px;
+    margin-bottom: 67px;
+}
+
+.f_info p{
+    width: 90%;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666; 
+    padding-bottom: 0;
+}

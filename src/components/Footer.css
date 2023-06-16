@@ -1,0 +1,247 @@
+.footer{
+    background-color: #57585a;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* position:absolute;
+    left:0;
+    bottom:0;
+    right:0; */
+
+}
+
+.one,.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail{
+    list-style: none;
+}
+
+.detail li {
+    width: 98px;
+    height: 18px;
+    margin: 6px 131px 18px 124px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--000);
+}
+
+.list{
+  width: 250px;
+  height: 44px;
+  padding: 7px 19.7px 9px 14px;
+  border-radius: 2px;
+  border: solid 1px #464749;
+  background-color: #4e4f51;
+  color: #989a9b;
+  outline: none;
+}
+
+select :active , section::after{
+  border: none
+    
+}
+
+
+select {
+        background-image:
+          linear-gradient(45deg, transparent 50%, #989a9b 60%),
+          linear-gradient(135deg, #989a9b 40%, transparent 50%) !important;
+        background-position:
+          calc(100% - 30px) 14px,
+          calc(100% - 20px) 14px,
+          100% 0;
+        background-size:
+          10px 10px,
+          10px 10px;
+        background-repeat: no-repeat;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+}
+
+select.list option :hover{
+     background-color: #ed2a2e;
+     box-shadow: 0 0 10px 100px #ed2a2e inset;
+}
+
+/* second row */
+
+.two{
+  align-items: flex-start;
+  margin-top: 88PX;
+  padding-right: 100px;
+
+}
+
+.info img{
+  width: 119px;
+  height: 38px;
+  margin: 0 257px 7px 0;
+  object-fit: contain;
+}
+
+.info p{
+  width: 238px;
+  height: 88px;
+  margin: 8px 130px 46px 8px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: left;
+  color: #c6c7c7;
+}
+
+.mail h1{
+  
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.mail p{
+  width: 232px;
+  height: 18px;
+  margin-top: 19px;
+  font-family: Lato;
+  font-size: 15px;
+  font-stretch: normal;
+  line-height: 1.2;
+  text-align: left;
+  color: #cecece;
+}
+
+.mailInput{
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+}
+
+.mailInput input {
+  width: 234px;
+  height: 40px;
+  padding: 7px 13px 9px 13px;
+  border-radius: 2px;
+  border: solid 1px #464749;
+  background-color: #4e4f51;
+  color: #fff;
+}
+
+textarea:focus, input:focus{
+  outline: none;
+}
+.mailInput button{
+  width: 45px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #007aff;
+  border: none;
+  outline: none;
+}
+
+.mailInput button img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  background-color: var(--000);
+}
+
+.contact{
+  padding-left: 80px;
+}
+
+.contact h1{
+ 
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--000);
+}
+
+.contact p {
+  width: 137px;
+  margin-top: 19px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #cecece;
+}
+
+
+.socials{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials img{
+  margin-right: 19px;
+  object-fit: contain;
+}
+
+.firstPic {
+  width: 8.5px;
+  height: 14.7px;
+}
+
+.secondPic{
+  width: 17px;
+  height: 14.7px;
+}
+.thirdPic{
+  width: 15px;
+  height: 16.3px;
+}
+
+.line{
+  text-align: center;
+  width: 100%;
+  height: 1px;
+  margin: 46px 0 22px 9px;
+  border: solid 1px #79797b;
+}
+
+.copyright{
+  text-align: center;
+}
+
+.copyright p{
+  
+  text-align: center;
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #cecece;
+}
+
+
+

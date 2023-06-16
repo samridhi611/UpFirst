@@ -1,0 +1,134 @@
+
+/* Container */
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+     /* Stretch both child divs to the same height */
+    justify-content: center;
+    width: 75.5%;
+    height: auto;
+    margin: 80px 125px 0 200px;
+    border: solid 1px #e3e3e3;
+    background-color: #fff;
+  }
+  
+  .nav {
+    width: 242px; /* Set the width of the navbar */
+    background-color: #fff;
+    border-right: 1px solid #ccc; /* Add a vertical line to the right of the navbar */
+    padding: 10px;
+    padding-top: 0;
+    flex-direction: column;
+    margin: 0 0px 17px 0px;
+    
+  }
+
+  .nav a{
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 3.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666;
+    font-weight: bold;
+    padding-top: 0;
+
+  }
+
+  .nav .active {
+    /* background-color: #ed2a2e; */
+    color: #ed2a2e!important ;
+    border-left: 3px solid #ed2a2e ;
+}
+
+   .nav a:hover{
+    color: #ed2a2e;
+    transition: ease-in 0.3s;
+}
+
+
+
+  
+ 
+  
+  .user-info {
+    flex: 1; /* Set the remaining space to the user info */
+    padding : 29px 87px ;
+  }
+
+
+ /* user detail */
+ .user-detail {
+    display: flex;
+ }
+
+ .user-detail img{
+    width: 45.5px;
+    height: 41.5px;
+ }
+
+ .user-detail h1{
+    margin-left: 23px;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.42;
+    text-align: left;
+    color: #222;
+ }
+/* Form */
+
+.form {
+    margin-top: 9px;
+}
+
+.form-group {
+    margin-top: 26px;
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  
+  label {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 2.43;
+    width: 150px;
+    font-weight: bold;
+    text-align: left;
+    color: #666;
+  }
+  
+  .form-group input {
+    width: 498px;
+    height: 37px;
+    padding: 2px 4px 1px 10px;
+    text-align: left;
+    border: solid 1px #dedede;
+    background-color: var(--000);
+    
+  }
+
+  .form-group input:focus {
+    background-color: #f2f2f2;
+  }
+  
+  .user-info form button[type="submit"] {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left : 150px ; 
+    width: 165px;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  

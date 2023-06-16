@@ -1,0 +1,64 @@
+.upfirst{
+    padding-bottom: 0;
+}
+.upfirst h1{
+    text-align: center;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    color: #2d2d2d;
+    margin-bottom: 35px;
+}
+
+.upfirst p{
+    margin-top: 15px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666;
+    margin-bottom: 25px ;
+}
+
+.uptwo {
+    padding-top: 0;
+}
+
+.uptwo h1{
+  
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+  color: #2d2d2d;
+}
+
+.upline{
+    width: 100%;
+  height: 2px;
+  text-align: center;
+  margin: 23px 126px 47px 0px;
+  border: solid 1px #e0e0e0;
+}
+
+.terms{
+    margin-top: 67px;
+}
+
+.terms p {
+    width: 100%;
+    text-align: justify;
+    font-family: Lato;
+    font-size: 17px;
+    line-height: 1.47;
+    color: #666;
+
+}
+
+
+

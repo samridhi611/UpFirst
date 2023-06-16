@@ -1,0 +1,162 @@
+.download{
+    display: flex;
+    background-color: #f3f3f3; 
+}
+
+.download .mobimg{
+    width: 790px;
+    height: 620px;
+    padding: 50px 0px 51px 175px;
+    object-fit: contain;
+}
+
+.download .infos{
+    padding-top: 77px;
+    padding-left: 73px;
+}
+
+.infos h1{
+    
+  font-family: Lato;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 0.93;
+  text-align: left;
+  color: #222;
+}
+
+.infos p {
+  width: 404.4px;
+  height: 57px;
+  margin: 17px 102.8px 39px 0;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444;
+}
+
+.infos h3{
+  width: 507.2px;
+  height: 38px;
+  margin: 39px 0 31px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444;
+}
+
+.number .btn1{
+     outline: none;
+     border: none;
+     width: 52px;
+     height: 40px ;
+     color:#444;
+     background-color: #fff;
+     border : solid 1px #e7e7e7;
+     margin: 2px 0 1px;
+     font-weight: bold;
+     border-radius: 4px 0 0 4px;
+}
+
+.number input{
+    outline: none;
+     border: none;
+     width: 204px;
+     height: 40px ;
+     color: #4b4b4b;;
+     background-color: #fff;
+     border-top : solid 1px #e7e7e7;
+     border-bottom : solid 1px #e7e7e7;
+     border-radius: 0;
+     padding: 0 13px;
+}
+
+.number .btn2{
+    border: none;
+    height: 40px;
+    border-radius: 0 4px 4px 0;
+    width : 153px;
+    color: #fff;
+    background-color: #007aff;
+
+}
+
+.or{
+    display: flex;
+    align-items: center;
+}
+
+.or .lines{
+  width: 170px;
+  height: 2px;
+  margin: 19px 0px 19px 1px;
+  color: #e7e7e7;
+  border-top: solid 2px #e7e7e7;
+
+}
+
+.or h2{
+  width: 44px;
+  height: 19px;
+  margin: 0 10px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: #444;
+}
+
+.mails input{
+     outline: none;
+     border: none;
+     width: 256px;
+     height: 40px ;
+     color: #4b4b4b;
+     background-color: #fff;
+     border-top : solid 1px #e7e7e7;
+     border-bottom : solid 1px #e7e7e7;
+     border-radius: 0;
+     padding: 0 13px;
+}
+
+.mails button{
+  border: none;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+  width : 153px;
+  color: #fff;
+  background-color: #007aff;
+}
+
+.images{
+  margin-top: 19px;
+  display: flex;
+}
+
+.images img{
+  height: 40px;
+  object-fit: contain;
+}
+
+.images .img1{
+  width: 141px;
+  margin-right: 24px;
+}
+
+.images .img2{
+  width: 117px;
+}
+
+

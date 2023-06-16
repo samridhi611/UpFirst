@@ -1,0 +1,83 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    margin-top : 108px 
+}
+.signin{
+    /* align-items: center; */
+    width: 448px;
+    height: 366px;
+    padding: 34px 32px 30px;
+    border-radius: 4px;
+    border: solid 1px #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.signin h1{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+    margin-bottom: 17PX;
+    letter-spacing: 1px;
+
+}
+
+.google{
+
+    height: 64px;
+    border-radius: 4.8px;
+    background-color: #DB4437;
+    outline: none;
+    border: none;
+  
+    font-family: Lato;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    margin-top: 17px;
+
+}
+
+.emailLog{
+    height: 64px;
+    border-radius: 4.8px;
+    background-color: darkgreen;
+    outline: none;
+    border: none;
+  
+    font-family: Lato;
+    font-size: 17px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    margin-top: 17px;
+}
+
+
+.fb{
+  height: 64px;
+  border-radius: 4.8px;
+  background-color: #37538e;
+  outline: none;
+  border: none;
+
+  font-family: Lato;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #fff;
+  margin-top: 17px;
+}
+
+
+.dont {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0 0;
+}

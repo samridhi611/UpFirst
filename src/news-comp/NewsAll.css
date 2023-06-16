@@ -1,0 +1,128 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 68px; */
+    margin-left: 191px;
+    margin-right: 218px;
+  }
+  
+  .news-article {
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    
+  }
+
+  .news-info{
+    padding-left: 44px;
+    padding-top: 68px;
+    width: 545px;
+  }
+  
+  .news-title {
+    
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222;
+  }
+
+  .news-icons{
+    display: flex;
+    align-items: center;
+  }
+  
+ 
+  .news-icons .save ,.news-icons .like,.news-icons .share{
+    width: 16px;
+    height: 16px;
+    margin-right: 33px;
+  }
+
+  .news-icons .like {
+    margin-right: 8px;
+    
+  }
+  .news-icons span{
+  width: 18px;
+  height: 18px;
+  margin: 14px 24px 14px 0px;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #999;
+  }
+  .news-description {
+    
+    font-family: Lato;
+    font-size: 17px;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666;
+  }
+  
+  .news-image {
+    width: 283px;
+    height: 266.9px;
+    margin: 68px 44px 40.1px 100px;
+    object-fit: cover;
+  }
+
+  .news-author{
+    display: flex;
+  }
+
+  .news-author p {
+    width: auto;
+    height: 46px;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #999;
+  }
+
+  .news-author .dot{
+    margin: 20px 11px;
+    height: 3px;
+    width: 3px;
+    background-color: #999;
+    border-radius: 50%;
+  }
+
+  .news-line{
+    width: 900px;
+    height: 2px;
+    margin: 0px 190px 0px;
+    border: solid 1px #ebebeb;
+  }
+
+  .loader{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #999;
+    padding: 50px 0;
+  }
+  

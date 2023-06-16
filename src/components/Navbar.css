@@ -1,0 +1,186 @@
+.box{
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08);
+    border: solid 1px #dbdbdb;
+}
+/* First Nav */
+.first{
+    padding-top: 15px;
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-bottom: 23pxpx;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 50px;
+}
+
+.icon,.iconListMem{
+    width: 20px;
+    height: 20px;
+}
+
+.logoC{
+    width: auto;
+    height: auto;
+    text-align:center!important ; 
+}
+.logo{
+    position: absolute;
+    top: 15px;
+    left : 45%;
+    width: 135px;
+    height: 48px;
+
+}
+
+.iconList{
+    display: flex;
+    align-items: center;
+}
+
+.iconListMem{
+    margin-left: 35px;
+}
+
+ /* Search Bar */
+ .search-input-closed {
+    display: none;
+  }
+  
+  .search-input-open {
+    display: block;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid #ccc;
+  }
+
+/* Second Nav */
+.second, .second2{
+    margin: 19px 0 ;
+    display: flex;
+    justify-content: center;
+}
+
+.second2{
+    margin-bottom: 0;
+    background-color: #57585a;
+    height: 56px;
+}
+
+.second .navs a , .second2 .navs a{
+    text-decoration: none;
+    margin: 21.7px 40px 0 13px;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555;
+    text-transform: capitalize;
+}
+
+.second2 .navs a{
+    color: #bababa;
+    margin-right: 71px;
+}
+
+.second2 .navs .active, .second2 .navs a:hover {
+    color: #fff !important;
+    text-decoration: underline #fff ;
+    text-underline-offset: 19px;
+    transition: ease-in 0.4s;
+}
+
+
+.second .navs .active {
+    /* background-color: #ed2a2e; */
+    color: #ed2a2e!important ;
+    text-decoration: underline #ed2a2e ;
+    text-underline-offset: 19px;
+}
+
+.second .navs a:hover, .dropdown a:hover{
+    color: #ed2a2e!important;
+    transition: ease-in 0.3s;
+}
+
+
+.navs{
+    display: flex;
+
+}
+
+/* .my-offcanvas {
+    background-color: #333333; /* Change this to the desired dark color */
+    /* color: #ffffff; /* Change this to the desired text color */
+  
+
+  /* .offcanvas-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Change this to the desired backdrop color */
+
+  
+  /* .offcanvas-header button {
+    color: #343a40; /* Change this to the desired button color 
+  }
+
+  .my-offcanvas.head{
+    height: 49px;
+    color: #fff;
+    margin:10px 13px;
+  }
+  Offcanvas .btnof1{
+
+  }  */
+ 
+
+  /* Profile page NAVBAR */
+  .profile-nav{
+    height: 80px;
+    padding-bottom: 15px;
+  }
+
+
+  .dropdown {
+    position: absolute !important;
+    top : 60px;
+    right: 6px;
+    
+    width: 281px;
+    height: 328.9px;
+    padding: 0 17px 0;
+    border-radius: 2px;
+    box-shadow: 1px 0 2px 0 rgba(195, 195, 195, 0.5);
+    border: solid 1px #dbdbdb;
+    background-color: #fff;
+    
+  }
+
+  .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .dropdown li {
+    text-decoration: none;
+    height: 54.9px;
+    padding: 15px 0 5px 0;
+    cursor: pointer;
+    align-items: center;
+    border-bottom: solid 1px #f5f5f5;
+
+    font-family: Lato;
+    font-size: 15px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #555;
+  }
+
+ .dropdown a{
+    text-decoration: none;
+    color: #555;
+ }
